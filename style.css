@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap);
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    min-height: 100vh;
+    background-image: url(https://64.media.tumblr.com/5890d162ba85ca064aca75d36e551299/76140ddc97e173f0-ff/s640x960/51886502a71669e72caa0258c18b0758ddb36e7f.pnj);
+    background-size: cover;
+}
+
+.heading{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 163, 61);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 0px;
+    border-style: solid;
+   
+    border-width: 2px 2px 2px 2px;
+    border-color: black;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.header{
+    margin: 15px;
+}
+.easel-image{
+    height: 100px;
+    display: flex;
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form_input{
+    padding: 13px;
+    width: 270px;
+    border-style: solid;
+    border-width: 2px 0px 2px 2px;
+    border-color: black;
+}
+
+.button{
+    padding: 13px;
+    border-radius: 0px 0px 30px 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.list-container{
+   
+    background-color: rgb(246, 163, 61);
+    opacity: 0.95;
+    min-width: 700px;
+    min-height: 300px;
+    margin: 70px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: black;
+ 
+   
+}
+.item{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 172, 203);
+    border-radius: 20px;
+    width: 600px;
+    border-bottom: 2px solid rgb(104, 104, 104);
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.gif{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonlink{
+    padding: 13px;
+    border-radius: 0px 0px 0px 0px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
